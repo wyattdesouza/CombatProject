@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb4457eab02d08b4ea598eaed94faf5d, type: 3}
+  m_Name: M1911
+  m_EditorClassIdentifier: 
+  name: M1911
+  description: Semi-automatic handgun
+  icon: {fileID: 21300000, guid: a607e8912a8e6b54b9085b76cc502ee9, type: 3}
+  prefab: {fileID: 5825197321780506668, guid: 94d9830928360ff4f88552fa638bbfab, type: 3}
+  magazineSize: 12
+  magazineCount: 4
+  range: 75
+  weaponType: 1
+  weaponStyle: 1
