@@ -15,7 +15,7 @@ E:/UnityProjects/CombatProject/Crucible
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61303
+58972
 Successfully changed project path to: E:/UnityProjects/CombatProject/Crucible
 E:/UnityProjects/CombatProject/Crucible
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ E:/UnityProjects/CombatProject/Crucible
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10960] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 1695783870 [EditorId] 1695783870 [Version] 1048832 [Id] WindowsEditor(7,Wyatt-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23144] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 2779495629 [EditorId] 2779495629 [Version] 1048832 [Id] WindowsEditor(7,Wyatt-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [10960] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 1695783870 [EditorId] 1695783870 [Version] 1048832 [Id] WindowsEditor(7,Wyatt-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23144] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 2779495629 [EditorId] 2779495629 [Version] 1048832 [Id] WindowsEditor(7,Wyatt-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 141.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 137.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.28f1 (232e59c3f087)
 [Subsystems] Discovering subsystems at path D:/Unity/2021.3.28f1/Editor/Data/Resources/UnitySubsystems
@@ -69,91 +69,91 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2021.3.28f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2021.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/2021.3.28f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2021.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002794 seconds.
+Registered in 0.003038 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 151.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 131.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.650 seconds
+- Completed reload, in  0.649 seconds
 Domain Reload Profiling:
-	ReloadAssembly (650ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (649ms)
+		BeginReloadAssembly (92ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (479ms)
-			LoadAssemblies (89ms)
+		EndReloadAssembly (467ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (97ms)
+			SetupTypeCache (109ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (309ms)
+			SetupLoadedEditorAssemblies (287ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (151ms)
+				RefreshPlugins (132ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (106ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				ProcessInitializeOnLoadAttributes (107ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011820 seconds.
+Registered in 0.011970 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\UnityProjects\CombatProject\Crucible\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\UnityProjects\CombatProject\Crucible\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 145.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 144.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.630 seconds
+- Completed reload, in  1.526 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1630ms)
-		BeginReloadAssembly (158ms)
+	ReloadAssembly (1527ms)
+		BeginReloadAssembly (120ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1353ms)
-			LoadAssemblies (140ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1302ms)
+			LoadAssemblies (117ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (340ms)
+			SetupTypeCache (318ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (793ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (770ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (146ms)
-				BeforeProcessingInitializeOnLoad (137ms)
-				ProcessInitializeOnLoadAttributes (445ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
+				RefreshPlugins (144ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (442ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5641 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 49 unused Assets / (0.8 MB). Loaded Objects now: 6093.
 Memory consumption went from 232.8 MB to 232.0 MB.
-Total: 3.992900 ms (FindLiveObjects: 0.530700 ms CreateObjectMapping: 0.159900 ms MarkObjects: 2.977300 ms  DeleteObjects: 0.324000 ms)
+Total: 3.961300 ms (FindLiveObjects: 0.509700 ms CreateObjectMapping: 0.148800 ms MarkObjects: 2.975100 ms  DeleteObjects: 0.326800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,20 +166,24 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 123281.441985 seconds.
-  path: Assets/01 - External
-  artifactKey: Guid(f5d7def4b3368a940b135805b2bb862b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01 - External using Guid(f5d7def4b3368a940b135805b2bb862b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d097367ca05ba7dfab3393f3585670') in 0.015105 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/InputSystem
-  artifactKey: Guid(48c9acd554a28814b922162e3fa889b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InputSystem using Guid(48c9acd554a28814b922162e3fa889b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344c2cb541083c87c91834cee13bab01') in 0.006006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/_TerrainAutoUpgrade
-  artifactKey: Guid(27612366ca5bee844ac94fec42e1f650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade using Guid(27612366ca5bee844ac94fec42e1f650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a97b8328859602b1c8072aab0af1b2b') in 0.007598 seconds 
+Received Prepare
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 7.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (0.8 MB). Loaded Objects now: 6093.
+Memory consumption went from 109.7 MB to 109.0 MB.
+Total: 6.946600 ms (FindLiveObjects: 0.739300 ms CreateObjectMapping: 0.140600 ms MarkObjects: 5.737000 ms  DeleteObjects: 0.329000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
